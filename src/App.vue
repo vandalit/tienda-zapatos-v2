@@ -1,6 +1,68 @@
-<script setup>
+<template>
+  <div id="app">
+    <!-- Encabezado o barra de navegación -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tienda de Zapatos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <router-link class="nav-link" to="/">Inicio</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/zapatos">Zapatos</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/checkout">Checkout</router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- El componente RouterView renderizará las rutas activas aquí -->
+    <main class="container">
+      <RouterView />
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-light text-center py-3">
+      <p>&copy; 2024 Tienda de Zapatos</p>
+    </footer>
+    
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App'
+};
+</script>
+
+<style scoped>
+/* Estilos globales para App.vue */
+header {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+}
+</style>
+
+
+
+
+
+<!-- <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld'
 </script>
 
 <template>
@@ -82,4 +144,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
