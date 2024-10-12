@@ -49,7 +49,7 @@ h2 {
   margin-bottom: 20px;
 }
 img {
-  width: 100%;
+  width: 200px;
   height: auto;
   object-fit: cover;
 }

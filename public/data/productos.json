@@ -5,14 +5,14 @@
         "nombre": "Botas Café Industrials Access",
         "precio_normal": 199000,
         "precio_promo": 99000,
-        "imagen": "https://example.com/botas1.jpg"
+        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
       },
       {
         "id": "5678",
         "nombre": "Zapatos Formales Negro Felixiano Moc",
         "precio_normal": 71000,
         "precio_promo": 43000,
-        "imagen": "https://example.com/formales1.jpg"
+        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
       }
     ]
   }

@@ -2,11 +2,11 @@
     "mejoreszapatos": [
       {
         "titulo": "Botas Café Industrials Access",
-        "imagen": "https://example.com/botas1.jpg"
+        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
       },
       {
         "titulo": "Zapatos Formales Negro Felixiano Moc",
-        "imagen": "https://example.com/formales1.jpg"
+        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
       }
     ]
   }
