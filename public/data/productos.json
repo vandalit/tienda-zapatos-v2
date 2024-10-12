@@ -13,6 +13,20 @@
         "precio_normal": 71000,
         "precio_promo": 43000,
         "imagen": "../../src/assets/img/Siete-Leguas.jpg"
+      },
+      {
+        "id": "55346",
+        "nombre": "Zapatos Formales Negro Felixiano Moc",
+        "precio_normal": 71000,
+        "precio_promo": 43000,
+        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
+      },
+      {
+        "id": "5678",
+        "nombre": "Zapatos Formales Negro Felixiano Moc",
+        "precio_normal": 71000,
+        "precio_promo": 43000,
+        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
       }
     ]
   }
