@@ -1,10 +1,15 @@
 <template>
-  <div>
-    <h1>Bienvenidos a la Tienda de Zapatos</h1>
-    <div v-if="zapatos.length">
-      <div v-for="zapato in zapatos" :key="zapato.titulo">
-        <h3>{{ zapato.titulo }}</h3>
-        <img :src="zapato.imagen" :alt="zapato.titulo" />
+  <div class="container">
+    <h1 class="text-center my-5">Bienvenidos a la Tienda de Zapatos</h1>
+    <div class="row">
+      <div v-for="zapato in zapatos" :key="zapato.titulo" class="col-md-4">
+        <div class="card product-card">
+          <img :src="zapato.imagen" class="card-img-top" :alt="zapato.titulo">
+          <div class="card-body">
+            <h5 class="card-title">{{ zapato.titulo }}</h5>
+            <button class="btn btn-primary mt-2">Ver más</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

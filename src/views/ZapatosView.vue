@@ -1,16 +1,18 @@
 <template>
-  <div>
-    <h2>Nuestros Zapatos</h2>
-    <div v-if="productos.length">
-      <div v-for="producto in productos" :key="producto.id" class="card">
-        <img :src="producto.imagen" class="card-img-top" :alt="producto.nombre" />
-        <div class="card-body">
-          <h5 class="card-title">{{ producto.nombre }}</h5>
-          <p class="card-text">
-            Precio normal: {{ producto.precio_normal }} <br />
-            Precio promocional: {{ producto.precio_promo }}
-          </p>
-          <button @click="agregarAlCarrito(producto)" class="btn btn-primary">Agregar al carrito</button>
+  <div class="container">
+    <h2 class="text-center my-5">Nuestros Zapatos</h2>
+    <div class="row">
+      <div v-for="producto in productos" :key="producto.id" class="col-md-4">
+        <div class="card product-card">
+          <img :src="producto.imagen" class="card-img-top" :alt="producto.nombre">
+          <div class="card-body">
+            <h5 class="card-title">{{ producto.nombre }}</h5>
+            <p class="card-text">
+              Precio: <strong>{{ producto.precio_normal }}</strong> <br>
+              Promoción: <strong>{{ producto.precio_promo }}</strong>
+            </p>
+            <button @click="agregarAlCarrito(producto)" class="btn btn-primary">Agregar al carrito</button>
+          </div>
         </div>
       </div>
     </div>
