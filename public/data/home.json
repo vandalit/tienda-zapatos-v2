@@ -2,19 +2,19 @@
     "mejoreszapatos": [
       {
         "titulo": "Botas Café Industrials Access",
-        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
+        "imagen": "../images/Siete-Leguas.jpg"
       },
       {
         "titulo": "Zapatos Formales Negro Felixiano Moc",
-        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
+        "imagen": "../images/Siete-Leguas.jpg"
       },
       {
         "titulo": "Botas Café Industrials Access",
-        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
+        "imagen": "../images/Siete-Leguas.jpg"
       },
       {
         "titulo": "Zapatos Formales Negro Felixiano Moc",
-        "imagen": "../../src/assets/img/Siete-Leguas.jpg"
+        "imagen": "../images/Siete-Leguas.jpg"
       }
     ]
   }
